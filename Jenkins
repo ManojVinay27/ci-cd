@@ -1,0 +1,8 @@
+pipeline{
+  agent any
+  stages{
+    stage("SCM"){
+      git 'https://github.com/ManojVinay27/ci-cd/'
+    }
+  }
+}
